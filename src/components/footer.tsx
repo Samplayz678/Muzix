@@ -8,15 +8,12 @@ const Footer: React.FC = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <div className="flex flex-col">
-              <span className="text-2xl font-semibold text-gray-900 dark:text-white">
-                Discord Bot Template
+              <span className="text-2xl font-semibold text-gray-900 dark:text-red-500">
+                Muzix
               </span>
               <div className="max-w-xs">
                 <p className="text-sm text-gray-600 dark:text-gray-400 text-wrap md:text-balance break-all">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Ipsum eum placeat quisquam, dicta cumque hic beatae ab, et
-                  nostrum possimus consequuntur voluptatibus tenetur quidem
-                  voluptas autem ullam blanditiis, obcaecati assumenda?
+                  I'm the ultimate Discord music bot, designed to transform your server into a nonstop party zone! Stream music from multiple sources with crystal-clear quality, and keep the beats going 24/7 with no interruptions. Enjoy advanced filters, seamless DJ controls, and fully customizable playlists that suit every mood and vibe. From private listening sessions to massive server-wide parties, I’ve got all the tools you need for the perfect audio experience, day or night!
                 </p>
               </div>
             </div>
@@ -25,36 +22,32 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Discord Bot Name
+                Muzix
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline ">
-                    Premium
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="https://dsc.gg/muzix-support" className="hover:underline">
                     Support Server
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline ">
-                    GitHub
+                  <a href="https://dsc.gg/muzix-hq" className="hover:underline ">
+                    Invite
                   </a>
                 </li>
+                 <li className="mb-4">
+                <a href="https://top.gg/bot/953839169384366111/vote" className="hover:underline">
+                  Vote
+                </a>
+                 </li>
               </ul>
+             
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Company
+                Team
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Careers
-                  </a>
-                </li>
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Terms of Use
@@ -73,18 +66,14 @@ const Footer: React.FC = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="https://github.com/0xQueen/" className="hover:underline">
-              Discord Bot Template
+            <a href="https://dsc.gg/muzix-hq" className="hover:underline">
+              Muzix
             </a>
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <FaDiscord
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
-            />
-            <FaGithub
-              href="https://github.com/0xQueen"
+              href="https://dsc.gg/muzix-support"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             />
           </div>

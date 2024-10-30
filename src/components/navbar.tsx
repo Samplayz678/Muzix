@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="bg-gray-900 text-white py-4 relative z-10">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold hidden md:block">
-          <Link href="/">Discord Bot Name</Link>
+          <Link href="/">Muzix</Link>
         </h1>
         <button
           className="block md:hidden text-white focus:outline-none"
@@ -38,12 +38,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/features">
+            <Link href="/">
               <Button variant="ghost">Features</Button>
             </Link>
           </li>
           <li>
-            <Link href="/invite">
+            <Link href="https://dsc.gg/muzix-hq">
               <Button variant="invite">Invite</Button>
             </Link>
           </li>
@@ -66,10 +66,10 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
-                <Link href="/features">Features</Link>
+                <Link href="/">Features</Link>
               </li>
               <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
-                <Link href="/invite">Invite</Link>
+                <Link href="https://dsc.gg/muzix-hq">Invite</Link>
               </li>
             </ul>
           </div>
