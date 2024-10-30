@@ -7,8 +7,8 @@ import InviteBot from "@/components/cards/invitebot";
 import Hero from "@/components/cards/hero";
 
 export const metadata: Metadata = {
-  title: "Discord Bot Template",
-  description: "Created by 0xQueen",
+  title: "Muzix",
+  description: "I'm a powerful Discord music bot! Stream from many sources, 24/7 mode, filters, DJ commands, and custom playlists for nonstop music vibes!",
 };
 
 export default function Home() {
