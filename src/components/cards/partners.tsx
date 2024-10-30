@@ -8,7 +8,7 @@ const Partners: React.FC = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-2xl font-bold mb-6">
             A lot of popular servers use{" "}
-            <span className="text-pink-500">Discord Bot Name</span>
+            <span className="text-red-500">Muzix</span>
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Skeleton className="w-16 h-16 rounded-full" />

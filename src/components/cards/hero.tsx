@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["protect", "moderate", "secure"],
+      strings: ["enhance", "elevate", "energize"],
       typeSpeed: 90,
       backSpeed: 90,
       loop: true,
@@ -41,13 +41,14 @@ const Hero: React.FC = () => {
   return (
     <section className="bg-gray-900 text-white py-8 md:py-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
+       
         <div className="max-w-md mx-auto md:mx-0 md:mr-8 text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-pink-500">
-            Discord Bot Name
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-red-500">
+            Muzix
           </h1>
           <p className="text-base md:text-lg leading-relaxed mb-8">
             The best way to{" "}
-            <span className="text-pink-500" ref={typingElement}></span> your
+            <span className="text-red-500" ref={typingElement}></span> your
             Discord Server.
           </p>
           <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
@@ -58,30 +59,30 @@ const Hero: React.FC = () => {
                 </DialogTrigger>
                 <DialogContent
                   style={{
-                    background: "#020817",
+                    background: "#02081a",
                   }}
                 >
                   <DialogHeader className="text-white">
                     <DialogTitle>Invitation</DialogTitle>
                     <DialogDescription className="text-base md:text-lg text-gray-300 py-4">
-                      When inviting DISCORD BOT NAME, you agree to our Terms of
+                      When inviting Muzix, you agree to our Terms of
                       Service and Privacy Policy.
                     </DialogDescription>
                   </DialogHeader>
                   <DialogFooter className="sm:justify-start">
-                    <Link href="#">
+                    <Link href="https://dsc.gg/muzix-hq">
                       <Button type="button" variant="ghost">
-                        I understand
+                        Click Here
                       </Button>
                     </Link>
                   </DialogFooter>
                 </DialogContent>
               </Dialog>
             </div>
-            <div>
+                                 <div>
               <Dialog>
                 <DialogTrigger asChild>
-                  <Button variant="login">Premium</Button>
+                  <Button variant="outline">Support Server</Button>
                 </DialogTrigger>
                 <DialogContent
                   style={{
@@ -89,26 +90,56 @@ const Hero: React.FC = () => {
                   }}
                 >
                   <DialogHeader className="text-white">
-                    <DialogTitle>Ouch, there's an issue...</DialogTitle>
+                    <DialogTitle>Support Server</DialogTitle>
                     <DialogDescription className="text-base md:text-lg text-gray-300 py-4">
-                      I have not implemented a dashboard for the Discord bot or
-                      API for purchases. You must code it yourself.
+                      Enjoying using Muzix then join our support server and have fun with our fellow users.
                     </DialogDescription>
                   </DialogHeader>
                   <DialogFooter className="sm:justify-start">
-                    <DialogClose asChild>
+                    <Link href="https://dsc.gg/muzix-support">
                       <Button type="button" variant="ghost">
-                        I understand
+                        Click Here
                       </Button>
-                    </DialogClose>
+                    </Link>
                   </DialogFooter>
                 </DialogContent>
               </Dialog>
             </div>
+              <div>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="outline">Vote</Button>
+                  </DialogTrigger>
+                  <DialogContent
+                    style={{
+                      background: "#02081a",
+                    }}
+                  >
+                    <DialogHeader className="text-white">
+                      <DialogTitle>Voting on Top.gg</DialogTitle>
+                      <DialogDescription className="text-base md:text-lg text-gray-300 py-4">
+                        Boost your vibe—vote for Muzix, the ultimate music bot on Discord, now on top.gg!
+                      </DialogDescription>
+                    </DialogHeader>
+                    <DialogFooter className="sm:justify-start">
+                      <Link href="https://top.gg/bot/953839169384366111/vote">
+                        <Button type="button" variant="ghost">
+                          Click Here
+                        </Button>
+                      </Link>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+              </div>
+            
           </div>
         </div>
         <div className="hidden md:block w-64">
-          <Skeleton className="h-64 w-64 rounded-lg" />
+          <img
+            src="https://media.discordapp.net/attachments/965108451623731250/1300408843112677386/pixelcut-export.png?ex=6720bb9c&is=671f6a1c&hm=8b18cb87c3217a69ae0ab03617eddf008f27afe51d6fb2e68cdad0c3bcca1a7b&=&format=webp&quality=lossless&width=350&height=350" // Replace this with the path to your logo file
+            alt="Muzix Logo"
+            className="w-64 h-64 mb-4 md:mb-0 md:mr-4"
+          ></img>
         </div>
       </div>
     </section>

@@ -18,8 +18,8 @@ const InviteBot: React.FC = () => {
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Ready to invite?</h2>
         <p className="text-lg text-gray-300 mb-8">
-          Upgrade your Discord experience with our bot. Enhance moderation,
-          security, and much more.
+          Upgrade your Discord experience with our bot. Enhanced Music System,
+          User Friendly Interface, and much more.
         </p>
         <Dialog>
           <DialogTrigger asChild>
@@ -31,18 +31,18 @@ const InviteBot: React.FC = () => {
             }}
           >
             <DialogHeader className="text-white">
-              <DialogTitle>Invite DISCORD BOT NAME</DialogTitle>
+              <DialogTitle>Invite Muzix</DialogTitle>
               <DialogDescription className="text-base md:text-lg text-gray-300 py-4">
-                When inviting DISCORD BOT NAME, you agree to our Terms of
-                Service and Privacy Policy.
+                When inviting Muzix, you agree to our Terms of
+                Service and Privacy Poliy.
               </DialogDescription>
             </DialogHeader>
             <div className="grid gap-4 py-4">
               <div className="grid grid-cols-4 items-center gap-4"></div>
             </div>
             <DialogFooter className="sm:justify-start">
-              <Link href="#">
-                <Button variant="ghost">I understand.</Button>
+              <Link href="https://dsc.gg/muzix-hq">
+                <Button variant="ghost">Click Here</Button>
               </Link>
             </DialogFooter>
           </DialogContent>
