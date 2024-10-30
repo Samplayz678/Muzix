@@ -136,7 +136,7 @@ const Hero: React.FC = () => {
         </div>
         <div className="hidden md:block w-64">
           <img
-            src="https://media.discordapp.net/attachments/965108451623731250/1300408843112677386/pixelcut-export.png?ex=6720bb9c&is=671f6a1c&hm=8b18cb87c3217a69ae0ab03617eddf008f27afe51d6fb2e68cdad0c3bcca1a7b&=&format=webp&quality=lossless&width=350&height=350" // Replace this with the path to your logo file
+            src="https://media.discordapp.net/attachments/965108451623731250/1300408843112677386/pixelcut-export.png?ex=67235e9c&is=67220d1c&hm=5075a043e15751e3243ca4241f32d5fee54e5af22f7520ff910f18194037d774&=&format=webp&quality=lossless&width=396&height=396" // Replace this with the path to your logo file
             alt="Muzix Logo"
             className="w-64 h-64 mb-4 md:mb-0 md:mr-4"
           ></img>
