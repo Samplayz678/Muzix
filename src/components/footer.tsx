@@ -49,12 +49,12 @@ const Footer: React.FC = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="https://discord.com/channels/991627393192173648/1297138468010463242" className="hover:underline">
                     Terms of Use
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="https://discord.com/channels/991627393192173648/1297141974477963295" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
