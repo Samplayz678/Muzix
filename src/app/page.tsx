@@ -7,7 +7,7 @@ import InviteBot from "@/components/cards/invitebot";
 import Hero from "@/components/cards/hero";
 
 export const metadata: Metadata = {
-  title: "Muzix",
+  title: "Muzix | Best Music Bot",
   description: "I'm a powerful Discord music bot! Stream from many sources, 24/7 mode, filters, DJ commands, and custom playlists for nonstop music vibes!",
 };
 
