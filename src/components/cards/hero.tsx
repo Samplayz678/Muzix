@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
                     </DialogDescription>
                   </DialogHeader>
                   <DialogFooter className="sm:justify-start">
-                    <Link href="https://dsc.gg/muzix-hq">
+                    <Link href="https://discord.com/oauth2/authorize?client_id=953839169384366111&permissions=824637135872&integration_type=0&scope=bot+applications.commands">
                       <Button type="button" variant="ghost">
                         Click Here
                       </Button>
@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
                     </DialogDescription>
                   </DialogHeader>
                   <DialogFooter className="sm:justify-start">
-                    <Link href="https://dsc.gg/muzix-support">
+                    <Link href="https://discord.gg/pEVG3wJhsG">
                       <Button type="button" variant="ghost">
                         Click Here
                       </Button>
