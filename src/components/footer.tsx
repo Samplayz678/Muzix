@@ -26,12 +26,12 @@ const Footer: React.FC = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://dsc.gg/muzix-support" className="hover:underline">
+                  <a href="https://discord.gg/pEVG3wJhsG" className="hover:underline">
                     Support Server
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://dsc.gg/muzix-hq" className="hover:underline ">
+                  <a href="https://discord.com/oauth2/authorize?client_id=953839169384366111&permissions=824637135872&integration_type=0&scope=bot+applications.commands" className="hover:underline ">
                     Invite
                   </a>
                 </li>
