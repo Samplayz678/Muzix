@@ -66,14 +66,14 @@ const Footer: React.FC = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="https://dsc.gg/muzix-hq" className="hover:underline">
+            <a href="https://discord.com/oauth2/authorize?client_id=953839169384366111&permissions=824637135872&integration_type=0&scope=bot+applications.commands" className="hover:underline">
               Muzix
             </a>
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <FaDiscord
-              href="https://dsc.gg/muzix-support"
+              href="https://discord.gg/pEVG3wJhsG"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             />
           </div>
