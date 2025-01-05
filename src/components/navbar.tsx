@@ -43,7 +43,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://dsc.gg/muzix-hq">
+            <Link href="https://discord.com/oauth2/authorize?client_id=953839169384366111&permissions=824637135872&integration_type=0&scope=bot+applications.commands">
               <Button variant="invite">Invite</Button>
             </Link>
           </li>
