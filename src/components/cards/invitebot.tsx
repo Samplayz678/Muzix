@@ -41,7 +41,7 @@ const InviteBot: React.FC = () => {
               <div className="grid grid-cols-4 items-center gap-4"></div>
             </div>
             <DialogFooter className="sm:justify-start">
-              <Link href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159685376&integration_type=0&scope=bot+applications.commands">
+              <Link href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159701760&integration_type=0&scope=bot+applications.commands">
                 <Button variant="ghost">Click Here</Button>
               </Link>
             </DialogFooter>
