@@ -69,7 +69,7 @@ const Navbar = () => {
                 <Link href="/">Features</Link>
               </li>
               <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
-                <Link href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159685376&integration_type=0&scope=bot+applications.commands">Invite</Link>
+                <Link href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159701760&integration_type=0&scope=bot+applications.commands">Invite</Link>
               </li>
             </ul>
           </div>
