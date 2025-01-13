@@ -43,7 +43,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://discord.com/oauth2/authorize?client_id=953839169384366111&permissions=824637135872&integration_type=0&scope=bot+applications.commands">
+            <Link href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159685376&integration_type=0&scope=bot+applications.commands">
               <Button variant="invite">Invite</Button>
             </Link>
           </li>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 <Link href="/">Features</Link>
               </li>
               <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
-                <Link href="https://dsc.gg/muzix-hq">Invite</Link>
+                <Link href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159685376&integration_type=0&scope=bot+applications.commands">Invite</Link>
               </li>
             </ul>
           </div>
