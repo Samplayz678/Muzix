@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159685376&integration_type=0&scope=bot+applications.commands" className="hover:underline ">
+                  <a href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159701760&integration_type=0&scope=bot+applications.commands" className="hover:underline ">
                     Invite
                   </a>
                 </li>
