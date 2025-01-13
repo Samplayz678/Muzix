@@ -31,12 +31,12 @@ const Footer: React.FC = () => {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://discord.com/oauth2/authorize?client_id=953839169384366111&permissions=824637135872&integration_type=0&scope=bot+applications.commands" className="hover:underline ">
+                  <a href="https://discord.com/oauth2/authorize?client_id=1328272164423729233&permissions=5229159685376&integration_type=0&scope=bot+applications.commands" className="hover:underline ">
                     Invite
                   </a>
                 </li>
                  <li className="mb-4">
-                <a href="https://top.gg/bot/953839169384366111/vote" className="hover:underline">
+                <a href="https://top.gg/bot/1328272164423729233/vote" className="hover:underline">
                   Vote
                 </a>
                  </li>
