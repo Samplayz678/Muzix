@@ -4,6 +4,7 @@ import Typed from "typed.js";
 import Link from "next/link";
 import { Skeleton } from "@/components/skeleton";
 import { Button } from "@/components/button";
+import logo from "@/components/logo.png";
 import {
   Dialog,
   DialogClose,
@@ -136,7 +137,7 @@ const Hero: React.FC = () => {
         </div>
         <div className="hidden md:block w-64">
           <img
-       src="./components/logo.png" // Replace this with the path to your logo file
+       src={logo} // Replace this with the path to your logo file
             alt="Muzix Logo"
             className="w-64 h-64 mb-4 md:mb-0 md:mr-4"
           ></img>
