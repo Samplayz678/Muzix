@@ -31,7 +31,7 @@ const Features: React.FC = () => {
           </div>
           {/* Playlist Commands */}
           <div className="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 cursor-pointer">
-            <h3 className="text-xl font-bold mb-2">Music Commands</h3>
+            <h3 className="text-xl font-bold mb-2">Playlist Commands</h3>
             <p className="text-lg text-gray-300">
              playlist-add, playlist-create, playlist-delete, playlist-list, playlist-load, playlist-remove
             </p>
