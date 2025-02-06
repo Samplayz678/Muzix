@@ -29,6 +29,13 @@ const Features: React.FC = () => {
              247, autoplay
             </p>
           </div>
+          {/* Filter Commands */}
+          <div className="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 cursor-pointer">
+            <h3 className="text-xl font-bold mb-2">Music Commands</h3>
+            <p className="text-lg text-gray-300">
+              clear, filter, join, leave, loop, lyric, pause, play, previous, queue, remove, resume, seek, shuffle, skip, stop, volume
+            </p>
+          </div>
         </div>
       </div>
     </section>
